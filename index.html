@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+        href="assets/style/style.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <h1 class="title">Учим JS</h1>
+  <div class="content">
+    <img src="assets/images/1.avif"
+         alt="foto"
+         class="img js-img"
+         id="image">
+    <img src="assets/images/2.avif"
+         alt="foto"
+         class="img img_bottom"
+         id="image-bottom">
+  </div>
+  <p onclick="showPreviousImg()"
+     id="paragraph">Назад</p>
+  <button onclick="showNextImg()"
+          id="btn">Вперед</button>
+  <form onsubmit="return false">
+
+    <input type="text"
+           id="text">
+    <input type="button"
+           value="это кнопка"
+           id="button"
+           onclick="getInfo()">
+  </form>
+  <div class="list"></div>
+
+
+  <!-- <div>
+    <img src="assets/images/1.avif"
+         alt="foto"
+         class="img"
+         id="image">
+  </div>
+  <p onclick="showPreviousImg()"
+     id="paragraph">Назад</p>
+  <button onclick="showNextImg()"
+          id="btn">Вперед</button> -->
+  <script src="assets/script/index.js"></script>
+</body>
+
+</html>
